@@ -6,6 +6,7 @@ This repo contains a single Makefile, which tries to provide a few useful target
 - a standard version of Make for your system
 - if you plan on deploying to itch.io, [butler](https://itch.io/docs/butler/) - run `butler login` before you use the Makefile
 - LOVE and at least one LOVE project 😀
+- if you plan on bundling for web, a compatible version of `Node.js`, since we use [love.js](https://github.com/Davidobot/love.js).
 
 ## Setup
 First, let's do a little bit of setup:
@@ -36,6 +37,9 @@ itchio = USERNAME/TEST-GAME
 ⚠ itch.io tends to convert the name of the project when there's underscores in it, replacing them with hyphens, so make sure you use the one that's shown in the URL and not the actual project name
 
 ⚠ also, make sure you created the project on itch.io before you deploy to it, because butler doesn't create it for you
+
+ℹ I'd recommend setting the size of your HTML embed on itch.io to 780x680 to get nice looking margins 😀. Or just set the game to start in fullscreen instead of embedding it on the page!
+
 
 ## How to run
 In the root LOVE folder, run
