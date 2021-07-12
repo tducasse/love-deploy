@@ -1,6 +1,6 @@
 # love-deploy
 ## What this project does
-This repo contains a single Makefile, which tries to provide a few useful targets to build and deploy a project (to [itch.io](https://itch.io/)). This currently works on Windows, used from WSL.
+This repo contains a single Makefile, which tries to provide a few useful targets to build and deploy a LOVE project (to [itch.io](https://itch.io/)). This currently works on Windows, used from WSL.
 
 ## Prerequisites
 - a standard version of Make for your system
