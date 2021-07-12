@@ -76,3 +76,4 @@ itchio = tducasse/test-deploy
 ```sh
 make deploy project=hello && make clean project=hello
 ```
+![image](https://user-images.githubusercontent.com/11507599/125232090-466d6d80-e31f-11eb-9c39-3296db8b0b14.png)
