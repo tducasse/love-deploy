@@ -18,7 +18,15 @@ windows: clean_windows $(fullname).love
 
 $(fullname).love: clean_love
 	mkdir -p $(project)/build
-	cd $(project) && zip -9 -r build/$(name).love . -x Makefile -x build/**\* -x build/
+	cd $(project) && zip -9 -r build/$(name).love . \
+			-x Makefile \
+			-x build/**\* \
+			-x build/ \
+			-x .git/**\* \
+			-x .git/ \
+			-x .vscode/**\* \
+			-x .vscode/ \
+			-x .gitignore
 
 deploy: deploy_web deploy_windows
 
