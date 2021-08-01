@@ -40,6 +40,7 @@ itchio = USERNAME/TEST-GAME
 
 ℹ I'd recommend setting the size of your HTML embed on itch.io to 780x680 to get nice looking margins 😀. Or just set the game to start in fullscreen instead of embedding it on the page!
 
+Note that you can also provide your own `index.html` by putting it in your project folder.
 
 ## How to run
 In the root LOVE folder, run
@@ -69,6 +70,7 @@ Given the following architecture:
 ROOT_FOLDER/
  |_ Makefile
  |_ hello/
+    |_ index.html (optional)
     |_ main.lua
     |_ Makefile
 ```
