@@ -9,7 +9,7 @@ all: web windows
 web: clean_web $(fullname).love
 	mkdir -p $(project)/build/web
 	npx love.js $(fullname).love $(project)/build/web -t $(name)
-	[ -f "$(project)/index.html" ] && cp $(project)/index.html $(project)/build/web/
+	[ -f "$(project)/index.html" ] && cp $(project)/index.html $(project)/build/web/ || :
 
 windows: clean_windows $(fullname).love
 	mkdir -p $(project)/build/windows
