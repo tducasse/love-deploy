@@ -33,6 +33,9 @@ In your "project Makefile" (the one that's empty in your project folder), add th
 name = MY_PROJECT
 # this is your username and the name of your project on itch.io
 itchio = USERNAME/TEST-GAME
+# use this to pass options to love.js. More info here: https://github.com/Davidobot/love.js#options
+# this is compatibility mode for example:
+web_options = -c
 ```
 ⚠ itch.io tends to convert the name of the project when there's underscores in it, replacing them with hyphens, so make sure you use the one that's shown in the URL and not the actual project name
 
