@@ -68,7 +68,7 @@ Or just have a read through the Makefile! 😉
 Feel free to modify it however you want, and let me know if you come up with something cool, I'll be happy to integrate it to this project!
 
 ### Sample run
-Given the following architecture:
+Given the following folder structure:
 ```
 ROOT_FOLDER/
  |_ Makefile
