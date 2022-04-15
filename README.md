@@ -43,6 +43,8 @@ web_options = -c
 
 ℹ I'd recommend setting the size of your HTML embed on itch.io to 780x680 to get nice looking margins 😀. Or just set the game to start in fullscreen instead of embedding it on the page!
 
+⚠ If you build a web version and push it to itchio, make sure you either use the compatibility mode (`web_options = -c`), or activate the experimental SharedArrayBuffer support: https://itch.io/t/2025776/experimental-sharedarraybuffer-support.
+
 Note that you can also provide your own `index.html` by putting it in your project folder.
 
 ## How to run
