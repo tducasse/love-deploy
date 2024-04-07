@@ -55,6 +55,7 @@ make TARGET project=FOLDER
 to run the operation `TARGET` on the project `FOLDER_NAME`.
 
 ### List of useful targets
+- **play**: runs the project
 - **all**: builds `web` and `windows`
 - **web**: builds `web`
 - **windows**: builds `windows`
