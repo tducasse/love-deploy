@@ -51,4 +51,7 @@ clean_windows:
 clean_love:
 	rm -rf $(project)/build/$(name).love
 
+play:
+	cd $(project) && $(love)/love.exe .
+
 .PHONY: clean web windows all
